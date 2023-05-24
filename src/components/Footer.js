@@ -12,9 +12,14 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <FaRegNewspaper className="text-white fs-1" />
-                <h2 className="mb-0 text-white" style={{
-            fontSize: "24px",
-          }}>Sign Up for Newsletter</h2>
+                <h2
+                  className="mb-0 text-white"
+                  style={{
+                    fontSize: "24px",
+                  }}
+                >
+                  Sign Up for Newsletter
+                </h2>
               </div>
             </div>
             <div className="col-7">
@@ -238,7 +243,8 @@ const Footer = () => {
           <div className="row">
             <div className="col-12">
               <p className="text-center mb-0 text-white">
-                &copy;{new Date().getFullYear()} ; Powered by Yash Rajoriya
+                &copy;{new Date().getFullYear()} ; Developed by Mihir Vir & Yash
+                Rajoriya
               </p>
             </div>
           </div>
