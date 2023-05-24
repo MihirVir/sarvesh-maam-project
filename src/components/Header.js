@@ -5,8 +5,10 @@ const Header = () => {
   const navColor = useRef(null);
   window.addEventListener("scroll", (e) => {
     if (window.scrollY > 400) {
+      // if user scrolled > 400px add bg
       navColor.current.classList.add("navbar-color");
     } else {
+      // else no bg
       navColor.current.classList.remove("navbar-color");
     }
   });
@@ -35,7 +37,7 @@ const Header = () => {
 
               <li>
                 <Link className="links" to="aboutus">
-                  About Us
+                  About
                 </Link>
               </li>
 
